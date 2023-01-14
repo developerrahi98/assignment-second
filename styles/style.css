@@ -1,0 +1,92 @@
+/*-------------
+    Fonts
+---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,500;1,700&display=swap');
+
+/*---------------
+    Utilities 
+-----------------*/
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+/*-------------------------
+    Header Area Styles 
+---------------------------*/
+.header {
+    background-color: #FFF4E7;
+    height: 1322px;
+}
+
+/*--------------------
+   Nav Bar Styles
+----------------------*/
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items .items {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-bar .nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-items li {
+    list-style-type: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*-----------------------
+   Header Banner Styles
+-------------------------*/
+.banner-info {
+    width: 862px;
+    margin: 80px auto 50px auto;
+    text-align: center;
+}
+
+.banner-info .banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-info .banner-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF900E;
+    padding: 21px 24px 20px 25px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 54px;
+}
+.banner-image{
+    width: 90%;
+    margin: 0px auto;
+}
+.banner-image img{
+    width: 100%;
+}
+
