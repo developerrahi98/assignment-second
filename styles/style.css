@@ -160,7 +160,7 @@ body {
    Articles Area Styles
 -----------------------------*/
 .article-section {
-    margin-top: 100px;
+    margin: 100px 0px;
 }
 
 .article-container {
@@ -227,7 +227,8 @@ body {
     height: 95%;
     margin-left: 92px;
 }
-.btn-experience{
+
+.btn-experience {
     font-weight: 700;
     font-size: 45px;
     color: #FFFFFF;
@@ -241,7 +242,53 @@ body {
     left: 0px;
 }
 
-.btn-experience span{
+.btn-experience span {
     font-weight: 500;
     font-size: 25px;
+}
+
+/*--------------------
+   Facts Area Styles 
+----------------------*/
+.facts-title {
+    color: #131313;
+    ont-weight: 700;
+    font-size: 45px;
+    margin: 24px 0px 24px 70px;
+}
+
+.facts-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    margin-left: 70px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 35px;
+}
+
+.fact-info {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0;
+}
+
+.fact-title {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
 }
