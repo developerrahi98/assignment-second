@@ -318,9 +318,25 @@ body {
 
 .sponsors-items {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
 }
 
-.sponsors-item img{
+.sponsors-item img {
     width: 70%;
+}
+
+/*-------------------------
+   Footer Area Styles 
+--------------------------*/
+.footer{
+    width: 90%;
+    background-color:  #FFF4E7;
+    margin: 124px auto 200px auto;
+}
+.footer p {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 38px 0px;
 }
