@@ -278,11 +278,13 @@ body {
     text-align: center;
     padding: 50px 35px;
 }
-.factor{
+
+.factor {
     padding: 5px;
-    transition: transform 2s ease-in-out,background-color 2s ease-in-out;
+    transition: transform 2s ease-in-out, background-color 2s ease-in-out;
 }
-.fact:hover .factor{
+
+.fact:hover .factor {
     transform: scale(1.3);
     background-color: #ff8f0e2b;
 }
@@ -333,14 +335,81 @@ body {
     width: 70%;
 }
 
+/*------------------------------
+    Social Media Area Styles
+---------------------------------*/
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.social-media {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.media p {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF4E7;
+    padding: 10px 0px 10px 10px;
+    border-radius: 8px;
+}
+
+.media img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.media .fa {
+    background-color: #2789EE;
+}
+
+.media .in {
+    background-color: #ED5586;
+}
+
+.media .yt {
+    background-color: #CD1529;
+}
+
+.media .tw {
+    background-color: #00569E;
+}
+
+.social-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.social-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    margin: 24px auto 50px auto;
+    text-align: center;
+}
+
 /*-------------------------
    Footer Area Styles 
 --------------------------*/
-.footer{
+.footer {
     width: 90%;
-    background-color:  #FFF4E7;
+    background-color: #FFF4E7;
     margin: 124px auto 200px auto;
 }
+
 .footer p {
     color: #424242;
     font-weight: 400;
