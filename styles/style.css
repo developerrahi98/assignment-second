@@ -292,3 +292,35 @@ body {
     font-size: 20px;
     margin: 0;
 }
+
+/*-------------------------
+   Sponsor Area Styles 
+---------------------------*/
+.sponsors-info {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.sponsors-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsors-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px;
+    margin: 24px auto 50px auto;
+}
+
+.sponsors-items {
+    display: flex;
+   justify-content: space-around;
+}
+
+.sponsors-item img{
+    width: 70%;
+}
