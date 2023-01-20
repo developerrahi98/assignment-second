@@ -9,6 +9,7 @@
 body {
     width: 1920px;
     height: 1322px;
+    margin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -424,155 +425,32 @@ body {
     text-align: center;
     padding: 38px 0px;
 }
-
+.hide{
+    display: none;
+}
 /*----------------------
    Media Query Styles
 ------------------------*/
 
 /*-----------------------
-    Mobile Device Style 
+    Mobile Device Styles 
 -------------------------*/
 @media only screen and (max-width: 576px) {
-
-    body,
-    .header,
-    main {
-        width: 575px;
-    }
-
-    .nav-bar {
+    .nav-bar{
         margin: 0px;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
-
-    .section-title element.style {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    .nav-bar .section-title {
+        margin-left: 30px;
     }
-
-    .nav-items ul {
+    .nav-items .items{
+        flex-direction: column;
         padding: 0px;
-        margin-left: 10px;
-        gap: 40px;
+        margin-left: 20px;
+    }
+    .banner-info{
+        margin:20px;
     }
 
-    .header-banner {
-        height: 575px;
-    }
-
-    .banner-info {
-        margin: 0px;
-        width: 575px;
-    }
-
-    .section-description {
-        margin-bottom: 0px;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .banner-image {
-        margin: 200px 0px 0px 0px;
-        width: 575px;
-    }
-
-    .banner-image img {
-        width: 80%;
-        margin-left: 45px;
-    }
-
-    .feature {
-        margin: 0px;
-        flex-direction: column-reverse;
-    }
-
-    .feature-images {
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px
-    }
-
-    .btn-primary {
-        margin-top: 0px;
-    }
-
-    .fact-container .section-title {
-        margin: 80px 0px 10px 30px;
-        text-align: center;
-    }
-
-    .fact-container .section-description {
-        margin: 20px 10PX;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .facts {
-        margin: 10px;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 30px;
-    }
-
-    .sponsors-info {
-        margin: 40px 20px 30px 20px;
-    }
-
-    .sponsors-items {
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-
-    .social-container .section-title {
-
-        margin: 50px 20px;
-        text-align: center
-    }
-
-    .social-container .section-description {
-        text-align: start;
-        margin: 0px;
-    }
-
-    .social-media {
-        margin: 50px 30px;
-        width: 575px;
-        grid-template-columns: repeat(1, 1FR);
-    }
-
-    .footer {
-        margin: 0px;
-        text-align: center;
-        width: 575px;
-    }
-
-    .footer p {
-        width: 575px;
-        padding-top: 25px;
-    }
-
-    .btn-experience {
-        display: none;
-    }
-
-    .blog-container {
-        margin: 0px;
-    }
-
-
-    .blog {
-        padding-left: 0px;
-    }
-
-    .blog-info{
-        margin: 5px;
-    }
-    .blog-info .section-description{
-        width: 470px;
-    }
-    .blog-image{
-        display: none;
-    }
 }
