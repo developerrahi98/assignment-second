@@ -481,6 +481,9 @@ body {
 .blog-banner{
     width: 100%;
 }
+.blog-info{
+    width: 100%;
+}
 .blog-info .section-title{
     width: 90%;
     font-size: 26px;
