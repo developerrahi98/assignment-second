@@ -7,8 +7,6 @@
     Utilities Or Common Styles
 ---------------------------------*/
 body {
-    width: 1920px;
-    height: 1322px;
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
@@ -29,10 +27,8 @@ body {
     Header Area Styles 
 ---------------------------*/
 .header {
-    width: 1920px;
-    height: 1322px;
     background-color: #FFF4E7;
-    margin-bottom: 41px;
+    margin-bottom: 51px;
 }
 
 /*--------------------
@@ -42,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 54px 244px 102px 244px;
+    margin: 54px 200px 102px 200px;
 }
 
 .nav-items .items {
@@ -67,7 +63,9 @@ body {
 .banner-info {
     width: 862px;
     height: 225px;
-    margin: 0px 515px 151px 545px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
 }
 
 .banner-info {
@@ -90,10 +88,14 @@ body {
 }
 
 .banner-image {
-    width: 1440px;
-    height: 700px;
-    margin: 0px 244px 85px 244px;
     border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+}
+.banner-image img{
+    width: 100%;
 }
 
 
@@ -164,10 +166,12 @@ body {
 -----------------------------*/
 .blog-container {
     display: flex;
+    width: 80%;
     gap: 66px;
-    width: 1452px;
-    height: 1043px;
-    margin: 230px 216px 40px 252px;
+    margin-top: 230px;
+    margin-bottom: 252px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -217,12 +221,12 @@ body {
 }
 
 .blog-image {
-    width: 708px;
+    width: 100%;
     height: 982px;
 }
 
 .blog-image img {
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
@@ -243,7 +247,7 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 65px;
-    padding: 25px 62px 29px;
+    padding: 5px 30px 5px;
 }
 
 .btn-experience span {
@@ -255,21 +259,21 @@ body {
    Facts Area Styles 
 ----------------------*/
 .fact-container .section-title {
-    margin: 85px 0px 24px 240px;
+    margin: 85px 0px 24px 100px;
 }
 
 .fact-container .section-description {
     width: 542px;
     height: 52px;
     text-align: start;
-    margin-left: 240px;
+    margin-left: 100px;
     margin-bottom: 100px;
 }
 
 .facts {
     display: flex;
     justify-content: space-between;
-    margin: 0px 290px;
+    margin: 0px 150px;
 }
 
 .fact {
@@ -309,7 +313,7 @@ body {
 .sponsors-info {
     width: 542px;
     height: 129px;
-    margin: 180px 689px 50px;
+    margin: 180px auto 50px;
 }
 
 .sponsors-info .section-title,
@@ -320,7 +324,7 @@ body {
 .sponsors-items {
     display: flex;
     justify-content: space-between;
-    margin: 0px 240.33px;
+    margin: 0px 140.33px;
 }
 
 .sponsors-item img {
@@ -344,12 +348,12 @@ body {
 }
 
 .social-media {
-    width: 1440px;
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    margin: 0px 240px;
+    margin: 0px auto;
 }
 
 .social-media .media {
@@ -369,7 +373,7 @@ body {
 }
 
 .media img {
-    width: 100%;
+    width: 100%; 
     border-radius: 8px;
 }
 
@@ -412,10 +416,10 @@ body {
    Footer Area Styles 
 --------------------------*/
 .footer {
-    width: 1440px;
+    width: 1200px;
     height: 100px;
     background-color: #FFF4E7;
-    margin: 222px 240px;
+    margin: 222px auto 150px;
 }
 
 .footer p {
@@ -425,9 +429,6 @@ body {
     text-align: center;
     padding: 38px 0px;
 }
-.hide{
-    display: none;
-}
 /*----------------------
    Media Query Styles
 ------------------------*/
@@ -436,21 +437,118 @@ body {
     Mobile Device Styles 
 -------------------------*/
 @media only screen and (max-width: 576px) {
-    .nav-bar{
-        margin: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .nav-bar .section-title {
-        margin-left: 30px;
-    }
-    .nav-items .items{
-        flex-direction: column;
-        padding: 0px;
-        margin-left: 20px;
-    }
-    .banner-info{
-        margin:20px;
-    }
-
+  .nav-bar{
+    margin: 0px;
+    flex-direction: column;
+  }
+  .items{
+    padding-left: 0px;
+  }
+  .nav-items li a{
+    font-size: 15px;
+  }
+  .banner-info{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.banner-info .section-title{
+    font-size: 28px;
+}
+.feature{
+    flex-direction: column-reverse;
+    margin: 0px;
+}
+.feature-info{
+    width: 350px;
+}
+.feature-info .section-title{
+    font-size: 30px;
+    width: 350px;
+}
+.feature-info .section-description{
+    text-align: start;
+    margin-bottom: 0px;
+    width: 350px;
+}
+.feature-images{
+    grid-template-columns: repeat(1, 1fr);
+}
+.blog-container{
+    flex-direction: column;
+    width: 100%;
+}
+.blog-banner{
+    width: 100%;
+}
+.blog-info .section-title{
+    width: 90%;
+    font-size: 26px;
+}
+.blog-info .section-description{
+    width: 85%;
+    margin-left: 10px;
+}
+.blogs{
+    width: 100%;
+}
+.blog{
+    width: 90%;
+    padding-right: 0px;
+}
+.blog-title{
+    width: 100%;
+}
+.blog .section-description{
+    width: 80%;
+}
+.fact-container .section-title{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.fact-container .section-description{
+    margin-left: 10px;
+    width: 300px;
+}
+.facts{
+    flex-direction: column;
+    margin: 0px;
+}
+.fact{
+    margin-top: 10px;
+}
+.sponsors-items{
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 80px;
+    gap: 30px;
+}
+.sponsors-info{
+    width: 300px;
+}
+.social-container .section-title{
+    margin-left: 10px;
+}
+.social-container .section-description{
+    margin-left: 10px;
+    width: 300px;
+    height: 100%;
+}
+.social-media{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.social-media .media{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.footer p{
+    padding-bottom: 50px;
+}
 }
